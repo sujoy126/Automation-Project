@@ -3,6 +3,7 @@
   <groupId>classnote</groupId>
   <artifactId>vtiger</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
   <dependencies>
 	  
 	  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -47,7 +48,10 @@
     <artifactId>extentreports</artifactId>
     <version>5.1.1</version>
 </dependency>
-
-
   </dependencies>
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
+  
 </project>
