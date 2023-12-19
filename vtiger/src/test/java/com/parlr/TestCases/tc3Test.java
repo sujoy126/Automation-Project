@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class tc3Test {
 	@Test
 	public void mmm() {
-		Reporter.log("Hello Qspider");
+	Reporter.log("Hello Qspider");
 	}
 
 }

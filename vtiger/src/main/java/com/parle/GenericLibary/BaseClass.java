@@ -14,6 +14,7 @@ import com.parle.PomClasses.ProductPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
+
 	 public static WebDriver driver;
 	 public PropertyUtill pu;
 	 public WebDriverUtility wb;
@@ -24,7 +25,7 @@ public class BaseClass {
 	 public ExcelUtilities ex;
 	 public JavaUtilities ju;
 	 
-	public static  ThreadLocal<WebDriver> tl = new ThreadLocal<>();
+	public static ThreadLocal<WebDriver> tl = new ThreadLocal<>();
 	
 	public static WebDriver getDriver() {
 		return tl.get();

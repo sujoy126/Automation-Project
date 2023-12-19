@@ -43,7 +43,6 @@ public class Listner implements ITestListener  {
 		wb = new WebDriverUtility();
 		String st = Iconstant.screenShotPath+"/"+ju.generateDate()+ju.generateTime()+ testCaseName+".png";
 		wb.takeScreenShot(BaseClass.driver,st);
-		
 	}
 
 	public void onTestSkipped(ITestResult result) {

@@ -5,5 +5,4 @@ public interface Iconstant {
 	String vtigerExcelPath = "./src/main/resources/Book1.xlsx";
 	String reportsPath = "./reports";
 	String screenShotPath = "./ss";
-
 }

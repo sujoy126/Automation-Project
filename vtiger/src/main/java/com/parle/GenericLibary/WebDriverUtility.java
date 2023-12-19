@@ -223,7 +223,7 @@ public class WebDriverUtility {
 			}
 		}
 	}
-	public void dropDownByINdex(WebElement we, int i) {
+	public void dropDownByIndex(WebElement we, int i) {
 		Select s = new Select(we);
 		s.selectByIndex(i);
 	}
